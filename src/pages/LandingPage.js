@@ -116,7 +116,7 @@ const LandingPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to break communication barriers?</h2>
           <p className="text-blue-100 mb-10 text-lg">Join thousands learning sign language effectively with Ishario.</p>
           <Link to="/dashboard">
-            <Button className="bg-white text-[#5B8DEF] hover:bg-slate-50 py-4 px-10 text-lg rounded-full">
+            <Button variant="custom" className="bg-white text-[#5B8DEF] hover:bg-slate-50 py-4 px-10 text-lg rounded-full shadow-md font-bold">
               Go to Dashboard
             </Button>
           </Link>

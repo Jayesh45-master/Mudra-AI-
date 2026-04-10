@@ -7,7 +7,8 @@ const Button = ({ children, variant = 'primary', className = '', ...props }) => 
     primary: "border-transparent text-white bg-[#5B8DEF] hover:bg-[#4a7bdd] shadow-sm hover:shadow focus:ring-[#5B8DEF]",
     secondary: "border-transparent text-white bg-[#6DD3A0] hover:bg-[#5cbd8d] shadow-sm hover:shadow focus:ring-[#6DD3A0]",
     accent: "border-transparent text-white bg-[#FF8A65] hover:bg-[#e8714b] shadow-sm hover:shadow focus:ring-[#FF8A65]",
-    outline: "border-slate-200 text-slate-700 bg-white hover:bg-slate-50 focus:ring-slate-500"
+    outline: "border-slate-200 text-slate-700 bg-white hover:bg-slate-50 focus:ring-slate-500",
+    custom: ""
   };
 
   return (
